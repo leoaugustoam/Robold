@@ -181,6 +181,7 @@
 <hole x="112.65" y="11.65" drill="3.1"/>
 <hole x="22.65" y="11.65" drill="3.1"/>
 <hole x="22.65" y="52.65" drill="3.1"/>
+<text x="53.85" y="37.8" size="1.778" layer="1">tirar vin do nano, e alimentar pelo vcc do pro mini</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">

@@ -14,14 +14,13 @@ String leString() // FUNÇÃO DO MESTRE #
     }
     delay(1);
   }
-//  Serial.print("Recebi: ");
-//  Serial.println(conteudo);
+  Serial.print("Recebi: ");
+  Serial.println(conteudo);
   return conteudo;
 }
 
 void setup() {
-  Serial.begin(115200);
-
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -30,10 +29,16 @@ void loop() {
   {
     recebido = leString();
   }
-  if (recebido == "comunicacao") {
+  /*if (recebido == "comunicacao") {
     Serial.println("DDD REFPG100X");
     recebido = "";
-  }
-
-
+  }*/
+  Serial.write("teste A");
+  delay(1000);
+  Serial.write("teste b");
+  delay(1000);
+  Serial.write("teste c");
+  delay(1000);
+  Serial.write("teste d");
+  delay(1000);
 }
